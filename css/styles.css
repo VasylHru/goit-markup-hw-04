@@ -111,6 +111,8 @@ color:#404bbf;
 .nav-link:focus {
   color: #404bbf;
 }
+
+
 /* ========================== */
 /* ======ADDRESS-HEADER====== */
 .address {
@@ -145,9 +147,17 @@ color:#404bbf;
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  
-  
+  background-image: linear-gradient( 
+  rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)), 
+   url(../images/people-office\ 1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
+
+ 
+
 
 .hero-title {
   font-weight: 700;
