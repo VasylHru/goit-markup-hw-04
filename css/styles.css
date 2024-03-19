@@ -66,8 +66,8 @@ address {
 
 /* ============================= */
 /* ======NAVIGATION-HEADER====== */
-  .header-container {
-    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+  .header {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
   }
 
 .navigation {
@@ -423,6 +423,7 @@ color:#404bbf;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -568,7 +569,6 @@ transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1)
   display: flex;
   gap: 16px;
   
-}
 
 .footer-social-item {
  
@@ -587,7 +587,8 @@ transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1)
   display: flex;
   align-items: center;
   justify-content:center;
-  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
